@@ -1,8 +1,8 @@
 import Parent from "./Parent";
 
-const ExecApp = () => {
+const PCApp = () => {
   return ( <Parent />
   );
 };
 
-export default ExecApp;
+export default PCApp;

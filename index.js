@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Styledemo from "./styles/styledemo"
-import MyComponent from './styles/MyComponent'
-import StateDemo from './State/StateDemo'
-import UserApp from "./classbased/UserApp";
-import ProfileApp from "./classbased/APICall/ProfileApp";
+import RestApp from "./PropDrilling/restApp";
 
 //React Element
 // const heading = React.createElement(
@@ -28,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ProfileApp />);
+root.render(<RestApp />);

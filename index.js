@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import RestApp from "./PropDrilling/restApp";
+import ContextApp from "./Context/ContextApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RestApp />);
+root.render(<ContextApp />);

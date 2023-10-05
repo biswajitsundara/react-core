@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ContextApp from "./Context/ContextApp";
+import LiveApp from "./Context/LiveUpdate/LiveApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ContextApp />);
+root.render(<LiveApp />);

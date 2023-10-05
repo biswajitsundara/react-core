@@ -1,5 +1,5 @@
-import Header from "./Basics/Header";
-import Body from "./Basics/Body";
+import Header from "./Header";
+import Body from "./Body";
 const ContextApp = () => {
   return (
     <>

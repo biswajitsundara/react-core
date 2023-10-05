@@ -1,0 +1,35 @@
+.header {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Spacing around content */
+  text-align: center; /* Center-align text */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Body {
+  margin-left: 300px;
+}
+
+.sidebar {
+  width: 250px; /* Set the width of the sidebar */
+  background-color: #333; /* Background color of the sidebar */
+  color: #fff; /* Text color */
+  position: fixed; /* Fixed position so it stays visible while scrolling */
+  top: 0; /* Position at the top of the viewport */
+  left: 0; /* Position on the left side of the viewport */
+  height: 100%; /* Make the sidebar the full height of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  padding: 20px; /* Add some padding inside the sidebar */
+}
+
+label {
+  padding: 1rem;
+}
+
+input {
+  padding: 0.6rem;
+}

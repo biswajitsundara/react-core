@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import LiveApp from "./Context/LiveUpdate/LiveApp";
+import ContactApp from "./Context/ClassBased/ContactApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<LiveApp />);
+root.render(<ContactApp />);

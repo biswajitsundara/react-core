@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ContactApp from "./Context/ClassBased/ContactApp";
+import PromotedApp from "./HOC/advanced/PromotedApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ContactApp />);
+root.render(<PromotedApp />);

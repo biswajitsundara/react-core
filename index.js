@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import PromotedApp from "./HOC/advanced/PromotedApp";
+import LiftApp from "./LiftingState/ListApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +24,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<PromotedApp />);
+root.render(<LiftApp />);

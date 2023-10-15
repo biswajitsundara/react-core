@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import LiftApp from "./LiftingState/ListApp";
+import AppCart from "./Redux Toolkit/CartApp";
 
 //React Element
 // const heading = React.createElement(
@@ -24,4 +25,4 @@ const HeadingComponent = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<LiftApp />);
+root.render(<AppCart />);
